@@ -5,10 +5,10 @@
 body{
     
     font-family: sans-serif;
-    border: 2px solid rgb(46, 46, 63);
+   
 }
 .container {
-    width: 90%;
+    width: 60%;
     margin: auto;
 }
 header{
@@ -24,7 +24,8 @@ header h1{
 }
 .container h2{
     color: rgb(243, 95, 78);
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .container img{
     width: 100%;
@@ -44,7 +45,7 @@ header h1{
     min-height: 300px;
 }
 .section-two .container h2{
-    margin-top: 30px!important;
+    padding-top: 30px;
 }
 .section-two p{
     color: #fff;
@@ -61,5 +62,5 @@ header h1{
     padding: 8px 14px;
     background: rgb(243, 95, 78);
     color: #fff;
-    margin: 20px 20px;
+    margin-right: 20px;
 }
