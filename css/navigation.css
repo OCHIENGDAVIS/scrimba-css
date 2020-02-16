@@ -87,6 +87,7 @@ header ul li a:active{
 }
 .comments{
     padding: 15px 0;
+    color: #1792D2;
 } 
 #main-div-img{
     width: 100%;
@@ -115,7 +116,7 @@ footer{
     width: 100%;
     color: #fff;
     font-size: 15px;
-    background: rgb(10, 9, 65);
+    background: #143774;
     text-align: center;
     padding: 10px;
 }
@@ -127,7 +128,15 @@ footer{
     margin: auto;
 }
 img{
+   
     border-radius: 5px;
+}
+.post-recent div{
+    border-bottom: 1px solid gray;
+    margin: 40px 0;
+}
+.post-recent div:last-child{
+    border-bottom: none;
 }
 @media all and (max-width: 965px){
     header div h1{
